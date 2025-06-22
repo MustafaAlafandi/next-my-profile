@@ -7,7 +7,7 @@ export default function Hero() {
       <div className={classes.image}>
         <Image
           src="/images/site/max.png"
-          alt="An image showing Mustafa"
+          alt="An image showing Max"
           width={300}
           height={300}
         />

@@ -1,9 +1,9 @@
 import MainNavigation from "./main-navigation"
-export default function Layout(props) {
+export default function Layout({children}) {
   return (
     <>
       <MainNavigation />
-      <main>{props.children}</main>
+      <main>{children}</main>
     </>
   );
 }
