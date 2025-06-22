@@ -1,11 +1,10 @@
 import Link from "next/Link";
 import Logo from "./logo";
+import classes from "./main-navigation.module.css";
 export default function MainNavigation() {
   return (
-    <header>
-      <Link href="/">
-        <Logo />
-      </Link>
+    <header className={classes.header}>
+      <Logo as={Link} href="/" />
       <ul>
         <li>
           <Link href="/posts">Posts</Link>
