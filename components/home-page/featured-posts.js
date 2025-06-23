@@ -1,4 +1,4 @@
-import PostGrid from "../posts/post-grid";
+import PostGrid from "../posts/posts-grid";
 import classes from "./featured-posts.module.css";
 export default function FeaturedPosts(props) {
   return (
