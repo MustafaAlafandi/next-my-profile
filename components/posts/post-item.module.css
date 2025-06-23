@@ -1,11 +1,17 @@
 .post {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   background-color: var(--color-grey-800);
-  text-align: center;
+
 }
 
-.post a {
+.post a{
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 400px));
+  gap: 10px; */
+  width: auto;
   color: var(--color-grey-100);
+  text-align: center;
+  
 }
 
 .image {
