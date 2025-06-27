@@ -9,7 +9,7 @@ export default function PostDetailPage(props) {
 
 export async function getStaticProps(context) {
   const { params } = context;
-  const postData = getPostData(params.slug[0]);
+  const postData = getPostData(params.slug);
   return {
     props: {
       postData,
